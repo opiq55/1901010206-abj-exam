@@ -7,7 +7,7 @@ while True:
             item=item.strip()
             print(item)
         break
-    if tidak == 'ya' or tidak == 'Ya':
+    elif tidak == 'ya' or tidak == 'Ya':
         print("------------------------------")
         x = input ("Masukkan nama perangkat : ")
         y = input ("Masukkan lokasi : ")
